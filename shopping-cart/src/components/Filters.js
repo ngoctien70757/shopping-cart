@@ -2,7 +2,7 @@ import { Button, Form } from "react-bootstrap"
 import { useState } from "react"
 import Rating from "./Rating"
 const Filter = ()=>{
-    const [rate,setRate] = useState(3)
+    const [rate,setRate] = useState()
 
     return (
         <div className="filters">
