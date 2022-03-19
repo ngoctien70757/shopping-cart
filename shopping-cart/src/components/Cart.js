@@ -18,7 +18,7 @@ const Cart = () => {
     
     return <div className='home'>
         <div className='productContainer'>
-            <ListGroup>
+            <ListGroup> 
                 {cart.map((prod)=>(
                     <ListGroup.Item key={prod.id} >
                         <Row>
